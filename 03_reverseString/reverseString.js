@@ -1,5 +1,11 @@
-const reverseString = function() {
+const reverseString = function(str) {
+    finalString = "";
 
+    for (character of str) {
+        finalString = character + finalString;
+    }
+
+    return finalString;
 };
 
 // Do not edit below this line
