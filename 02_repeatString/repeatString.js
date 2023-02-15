@@ -1,7 +1,7 @@
 const repeatString = function(str, numCopies) {
     if (numCopies < 0) return "ERROR";
 
-    finalString = "";
+    let finalString = "";
 
     for (let i = 0; i < numCopies; i++) {
         finalString += str;

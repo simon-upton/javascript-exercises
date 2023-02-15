@@ -1,5 +1,5 @@
 const reverseString = function(str) {
-    finalString = "";
+    let finalString = "";
 
     for (character of str) {
         finalString = character + finalString;
